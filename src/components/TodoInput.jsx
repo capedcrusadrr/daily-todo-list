@@ -7,7 +7,7 @@ export default function TodoInput(props) {
         onChange={(e) => {
           setTodoValue(e.target.value);
         }}
-        placeholder="Enter a todo..."
+        placeholder="Enter a to do..."
         onKeyDown={(e) => {
           if (e.key === "Enter") {
             handleAddTodos(todoValue);
